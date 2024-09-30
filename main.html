@@ -6,6 +6,7 @@
     <title>SIC FINAL PROJECT</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
     <!-- nav bar start -->
@@ -144,6 +145,43 @@
     <!-- about section End -->
 
 
+    <section class="cards">
+        <h1 class="heading">Project <span>Summary</span> </h1>
+        <div class="swiper card-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <img src="/img/binary.png" alt="">
+                    <h3>Binary search</h3>
+                    <p>Binary search is efficient for finding an item in a sorted list, operating in (O(\log n)) time complexity, making it much faster than a linear search for large lists</p>
+                </div>
+
+                
+                <div class="swiper-slide slide">
+                    <img src="/img/Quick.png" alt="">
+                    <h3>Quick Sort</h3>
+                    <p>The code sorts a list by selecting a pivot element, partitioning the list into sub-lists of elements less than and greater than the pivot, and recursively sorting the sub-lists.</p>
+                </div>
+
+                
+                <div class="swiper-slide slide">
+                    <img src="/img/class 1.png" alt="">
+                    <h3>Our OOP CLASS</h3>
+                    <p>The code snippet defines a User class in Python with attributes like username, email, password, bio, and methods to manage user data and interactions.</p>
+                </div>
+
+                
+                <div class="swiper-slide slide">
+                    <img src="/img/class2.png" alt="">
+                    <h3>Our OOP CLASS</h3>
+                    <p>The code snippet defines a PageNavigation class in Python to manage web page history, allowing navigation forward and backward through visited pages.</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    
     <!-- footer start -->
     <footer class="footer">
         <div class="container">
@@ -177,6 +215,7 @@
     </footer>
     <!-- footer ends -->
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
      <script src="/page.js"></script>
 </body>
 </html>

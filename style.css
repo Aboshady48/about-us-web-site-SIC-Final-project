@@ -271,8 +271,40 @@ header{
     margin-top: 20px; /* Space above */
     font-size: 12px; /* Smaller font size */
 }
+/* cards */
 
-
+.heading{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color: #000;
+    
+}
+.heading span{
+    color: #555;
+}
+.cards .slide{
+    background-color: #555;
+    color: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+.cards .slide img{
+    height: 25rem;
+    width: 100%;
+}
+.cards .slide h3{
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: #fff;
+}
+.cards .slide p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: #ddd;
+}
 
 
 
